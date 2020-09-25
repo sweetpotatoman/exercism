@@ -9,3 +9,5 @@ def convert(number):
     if number % 7 == 0:
         sound += "Plong"
     return sound if sound else str(number)
+
+# print(convert(35))
